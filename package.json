@@ -1,0 +1,18 @@
+{
+  "name": "JNUN-Charter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jn-un/JNUN-Charter.git",
+  "author": "rhyme.qing@jnun.org",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "pnpm": "^7.15.0",
+    "vitepress": "^0.22.4",
+    "vue": "^3.2.33"
+  }
+}
