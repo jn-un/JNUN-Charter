@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-    title: '联合现在章程',
+    title: 'JNUN',
     themeConfig: {
         nav: [
-            // { text: 'hello', link: '/docs/hello' }
+            { text: 'hello', link: '/docs/hello' }
         ],
         sidebar: [
 
