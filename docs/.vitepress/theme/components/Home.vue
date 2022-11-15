@@ -3,11 +3,22 @@
         <div class="home-logo_main">
                 <img src ="https://raw.githubusercontent.com/rhyme-qing/picture-bed/main/outher/202211140505428.svg" alt="logo"/>
             <div class="home-logo_title">
-                <h1>联合现在章程</h1>
+                <h1>Joint Now Charter</h1>
             </div>
+            <ui class="home-language">
+                <li><a href="">US</a></li>
+                <li><a href="">JP</a></li>
+                <li><a href="/cn/">CN</a></li>
+                <li><a href="">TW</a></li>
+                <li><a href="">RU</a></li>
+                <li><a href="">BR</a></li>
+                <li><a href="">HU</a></li>
+                <li><a href="">KR</a></li>
+            </ui>
         </div>
     </div>
 </template>
+
 <style>
     /* .theme.no-sidebar main {
         margin-left: -80px
@@ -27,15 +38,13 @@
         height: 100vh;
         max-width: 868px !important;
     }
-    .content {
-        text-align: center;
-    }
     body {
         height: 100%;
         width: 100%;
         margin: 0 auto;
     }
     .home-logo {
+        text-align: center;
         margin-top: 25vh;
     }
     .home-logo img {
@@ -43,6 +52,7 @@
     }
     .home-logo .home-logo_main {
         width: 36%;
+        min-width: 193px;
         margin: 0 auto;
     }
     .home-logo .home-logo_main .home-logo_title {
@@ -58,9 +68,24 @@
     .nav-bar {
         bottom: 0 !important;
         top: auto !important;
-        border: 1px solid red;
         height: 5vh !important;
         display: none !important;
+    }
+    .home-language {
+        list-style: none;
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+        border: 2px solid #007FFF;
+    }
+    .home-language li {
+        font-size: 20px;
+        display: contents;
+    }
+    a {
+        color: #007FFF !important;
+        padding: 1px;
+
     }
 </style>
 

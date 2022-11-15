@@ -1,12 +1,11 @@
 ---
-page: true
-sidebar: true
-nav: true
-title: title
+page: false
+sidebar: false
+nav: false
+title: Index
 ---
 
 <Home />
-
 <script setup>
-    import Home from '/@theme/Home.vue'
+    import Home from '/@theme/components/Home.vue'
 </script>
