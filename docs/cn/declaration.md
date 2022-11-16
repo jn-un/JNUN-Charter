@@ -5,6 +5,8 @@ nav: true
 lastUpdated: true
 title: 宣言
 ---
+<Page />
 
-# 1111111111111111d
-
+<script setup>
+    import Page from '/@theme/components/Page.vue'
+</script>
