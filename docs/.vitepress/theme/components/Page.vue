@@ -91,5 +91,18 @@
         display: block;
         margin-top: 20px;
     }
+    .page-cover {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+    @media (max-width: 1250px) {
+        .page-cover {
+            display: block !important;
+        }
+    }
 </style>
 

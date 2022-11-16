@@ -8,9 +8,11 @@ title: 联合现在章程
 
 <Page />
 
-<p align="center" class="index-cover">
-  <img src="https://raw.githubusercontent.com/rhyme-qing/picture-bed/main/outher/202211160214555.svg" width="323.79">
-</p>
+<cover class="index-cover" style="">
+  <img src="https://raw.githubusercontent.com/rhyme-qing/picture-bed/main/outher/202211160214555.svg" width="322.79">
+</cover>
+
+<div class="page-cover">
 
 # 序言
 ## 玆以联合之今日决心
@@ -30,21 +32,46 @@ title: 联合现在章程
 ## 联合非营利网络
 经去中心化流，集各组织提案区块，以不可更改和分布网络的原则，议定设立去中心化组织，定名联合现在。
 
+</div>
+
 <style module>
     @media (max-width: 1250px) {
         img {
             display: none;   
+            
         }
         body {
             overflow: auto !important;
         }
+        cover {
+            height: 0 !important;
+        }
+        /* h1 {
+            padding-top: 0 !important;
+        } */
+    }
+    cover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
     img {
-        padding-bottom: 1019px;
+        /* padding-bottom: 1019px; */
+        height: 100%;
     }
     body {
         overflow: hidden;
     }
+    /* h1 {
+        padding-top: 30%;
+    }
+    @media (min-width: 2560px) {
+        h1 {
+            padding-top: 40%;
+        }
+    } */
+    
 </style>
 
 <script setup>
