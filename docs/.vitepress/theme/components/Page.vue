@@ -1,14 +1,5 @@
-<!-- <script setup>
-    import DefaultTheme from 'vitepress/theme'
-
-    const { Layout } = DefaultTheme
-</script> -->
 <template>
-    <!-- <Layout>
-        <template #page-bottom>
-            <div>Edit this page</div>
-        </template>
-    </Layout> -->
+    
 </template>
 <style>
     .sidebar {

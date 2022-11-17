@@ -36,9 +36,10 @@ function getConfigSidebarCN() {
     },
     {
       text: '会员',
+      link: 'cn/member/index',
       children: [
-        { text: '属性', link: '/config/homepage' },
-        { text: '行为规范', link: '/config/algolia-search' }
+        { text: '属性', link: 'cn/member/attribute' },
+        { text: '规范', link: 'cn/member/code-of-conduct' }
       ]
     },
     {
@@ -46,7 +47,7 @@ function getConfigSidebarCN() {
       children: [
         { text: '理事会', link: '/config/homepage' },
         { text: '监事会', link: '/config/algolia-search' },
-        { text: '工作组', link: '/config/algolia-search' },
+        { text: '计划组', link: '/config/algolia-search' },
         { text: '工作流', link: '/config/algolia-search' }
       ]
     },
