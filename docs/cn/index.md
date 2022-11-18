@@ -60,9 +60,6 @@ title: 联合现在章程
         /* padding-bottom: 1019px; */
         height: 100%;
     }
-    body {
-        overflow: hidden;
-    }
     /* h1 {
         padding-top: 30%;
     }

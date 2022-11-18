@@ -52,11 +52,19 @@
         column-rule-width: 1px;
         column-gap: 3%;
         padding-bottom: 0 !important;
-        padding: 1%;
+        text-align: justify;
     }
     @media (max-width: 1250px) {
         .content {
             columns: 1;
+        }
+        .page-cover {
+            display: block !important;
+        }
+        .page-odd {
+            display: block !important;
+            width: auto !important;
+            background: red;
         }
     }
     .page-footer {
@@ -90,10 +98,12 @@
         flex-direction: column;
         justify-content: center;
     }
-    @media (max-width: 1250px) {
-        .page-cover {
-            display: block !important;
-        }
+    .page-odd {
+        display: inline-block;
+        width: 761px;
+        min-height: 100vh;
+        border-right: 1px solid #E3E3E3;
+        padding-right: 25px;
     }
 </style>
 

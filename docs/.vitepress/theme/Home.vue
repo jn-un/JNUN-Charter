@@ -19,7 +19,7 @@
     </div>
 </template>
 
-<style scoped>
+<style>
     /* .theme.no-sidebar main {
         margin-left: -80px
     }

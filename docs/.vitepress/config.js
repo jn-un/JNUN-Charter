@@ -35,20 +35,19 @@ function getConfigSidebarCN() {
       link: 'cn/declaration'
     },
     {
+      text: '工作流',
+      link: 'cn/institution/',
+      children: [
+        { text: '理事会', link: 'cn/institution/council' },
+        { text: '监事会', link: 'cn/institution/supervisory-board' }
+      ]
+    },
+    {
       text: '会员',
       link: 'cn/member/index',
       children: [
         { text: '属性', link: 'cn/member/attribute' },
         { text: '规范', link: 'cn/member/code-of-conduct' }
-      ]
-    },
-    {
-      text: '机构',
-      children: [
-        { text: '理事会', link: '/config/homepage' },
-        { text: '监事会', link: '/config/algolia-search' },
-        { text: '计划组', link: '/config/algolia-search' },
-        { text: '工作流', link: '/config/algolia-search' }
       ]
     },
     {
