@@ -1,0 +1,30 @@
+.layout {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+
+  .layout__aside {
+    height: 100%;
+    width: 219px;
+    border: 1px solid #e3e3e3;
+  }
+  .layout__main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .layout__header {
+      height: 60px;
+    }
+    .layout__content {
+      padding: 20px;
+      overflow: auto;
+    }
+    .layout__footer {
+      width: 100%;
+      height: 60px;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
