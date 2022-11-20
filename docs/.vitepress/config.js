@@ -40,6 +40,7 @@ function getConfigSidebarCN() {
       children: [
         { text: '理事会', link: 'cn/institution/council' },
         { text: '监事会', link: 'cn/institution/supervisory-board' }
+
       ]
     },
     {

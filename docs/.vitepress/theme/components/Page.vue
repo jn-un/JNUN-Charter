@@ -64,7 +64,6 @@
         .page-odd {
             display: block !important;
             width: auto !important;
-            background: red;
         }
     }
     .page-footer {
