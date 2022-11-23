@@ -6,8 +6,8 @@
 </template>
 
 <script setup lang="ts">
-  import Logo from '@/components/Logo.vue'
-  import LocaleItem from '@/components/LocaleItem.vue'
+  import Logo from '/@/components/Logo.vue'
+  import LocaleItem from '/@/components/LocaleItem.vue'
 </script>
 
 <style scoped lang="scss">

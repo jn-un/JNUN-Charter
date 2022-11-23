@@ -2,7 +2,7 @@
 
 <template>
   <div class="logo-body">
-    <img class="logo" src="@/assets/logo.svg" alt="logo" />
+    <img class="logo" src="../assets/logo.svg" alt="logo" />
     <div class="text">
       <span>JOINT NOWADAYS</span> <br />
       <span>EDITORIAL ORGANIZATION</span>

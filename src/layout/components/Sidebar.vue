@@ -1,7 +1,7 @@
 <template>
   <aside>
     <div class="logo">
-      <img src="@/assets/logo.svg" alt="logo" />
+      <img src="../../assets/logo.svg" alt="logo" />
     </div>
     <div v-for="(item, index) in sidebar">
       <div class="level level-1">{{ item.text }}</div>
@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-  import { sidebar } from '@/utils/sidebar'
+  import { sidebar } from '/@/utils/sidebar'
   import { useRouter } from 'vue-router'
   import { onMounted } from 'vue'
 

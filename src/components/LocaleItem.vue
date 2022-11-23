@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-  import { localeList } from '@/utils/locale'
+  import { localeList } from '/@/utils/locale'
 </script>
 
 <style scoped lang="scss">
