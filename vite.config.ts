@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
-import { resolve } from 'path';
+import { resolve } from 'path'
 import vue from '@vitejs/plugin-vue'
 
 function pathResolve(dir: string) {
-  return resolve(process.cwd(), '.', dir);
+  return resolve(process.cwd(), '.', dir)
 }
 
 export default defineConfig({
@@ -15,13 +15,13 @@ export default defineConfig({
   plugins: [
     vue({
       include: [/\.vue$/, /\.md$/]
-    }),
+    })
   ],
   resolve: {
     alias: [
       {
         find: /\/@\//,
-        replacement: pathResolve('src') + '/',
+        replacement: pathResolve('src') + '/'
       }
     ]
   }
